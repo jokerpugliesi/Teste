@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+body {
+    background-image: url(../img/Eurekabackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position: center top;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.passage {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border: white solid 3px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.viagem {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+}
+
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: 17px;
+        flex-wrap: nowrap;
+    }
+
+    .passage {
+        font-size: 8px;
+    }
+
+    body {
+        background-size: 400px;
+    }
+}
+
+@media screen and (min-width: 465px) {
+    h1 {
+        font-size: 21px;
+    }
+
+    .passage {
+        font-size: 10px;
+    }
+
+    body {
+        background-size: 400px;
+        background-position: center top;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .passage {
+        font-size: 13px;
+    }
+
+    body {
+        background-size: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .passage {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .passage {
+        font-size: 20px;
+    }
+
+    body {
+        background-size: 650px;
+    }
+}
